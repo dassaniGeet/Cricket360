@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/styles.css')}}">
+    <title>Cricket360</title>
+</head>
+
+<body>
+    <div class="background"></div>
+    <div class="form-container">
+        <h1>Cricket360</h1>
+        <form action="/action" method="post"> 
+			<label for="name" class="form-label">Name</label> 
+			<input name="userName" type="text" class="form-control" id="name"> 
+			<label for="phonenumber" class="form-label">Contact</label> 
+			<input name="userContact" type="text" class="form-control" id="phonenumber">  
+			<button type="submit" class="btn btn-primary" name="action" value="register">Register</button> 
+			<button type="submit" class="btn btn-primary" name="action" value="unregister">UnRegister</button> 
+		</form>
+    </div>
+</body>
+
+</html>
+
