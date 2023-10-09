@@ -76,7 +76,7 @@ def send_updates():
         for data in data_users:
             numbers.append(data[2])
         send_sms(numbers)
-        sleep(10)
+        sleep(900)
 
  
 if __name__ == '__main__':
